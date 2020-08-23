@@ -1,0 +1,58 @@
+/* debug */
+div {
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Martel-Sans";
+  src: url(./Martel_Sans/MartelSans-Light.ttf);
+}
+
+body {
+  /* background-color: rgb(65, 64, 64); */
+  /* color: white; */
+  font-family: "Martel-Sans", sans-serif;
+  margin: 0;
+}
+button {
+  border: none;
+  box-shadow: none;
+}
+h2 {
+  font-size: 30pt;
+}
+h3 {
+  font-size: 18pt;
+}
+.divider {
+  width: 100px;
+  border: 1px solid #e67f22;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  background-color: transparent;
+  border: 1px solid #e67f22;
+  color: #e67f22;
+  display: block;
+  font-size: 13pt;
+  padding: 0 30px;
+  margin: 0 auto;
+  height: 45px;
+  border-radius: 40px;
+}
+.btn.active {
+  color: white;
+  background-color: #e67f22;
+}
+.btn:hover {
+  background-color: #d85c09;
+  cursor: pointer;
+  color: white;
+  transition: all ease 0.4s;
+}
