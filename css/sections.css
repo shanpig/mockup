@@ -44,6 +44,18 @@
   font-size: 12pt;
 }
 
+#banner .row #navbar .navbar-items .navbar-item a {
+  text-decoration: none;
+  color: white;
+  border-bottom: transparent;
+}
+
+#banner .row #navbar .navbar-items .navbar-item a:hover {
+  border-bottom: 2px solid #ef7622;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
 #banner .row h1 {
   font-size: 33pt;
   margin-top: 118px;
@@ -169,7 +181,7 @@
   border: 1px solid #e67f22;
   border-radius: 50%;
   font-size: 200%;
-  line-height: 1.7;
+  line-height: 2;
   margin: 5px 25px;
   width: 60px;
   height: 60px;

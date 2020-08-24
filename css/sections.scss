@@ -22,22 +22,28 @@
     #navbar {
       padding-top: 20px;
       height: 17vh;
-
       #logo {
         border-radius: 50%;
         float: left;
         max-height: 100%;
       }
-
       .navbar-items {
         margin: auto 0;
         height: 100%;
         float: right;
-
         .navbar-item {
           float: right;
           margin: auto 20px;
           font-size: 12pt;
+          a {
+            text-decoration: none;
+            color: white;
+            border-bottom: transparent;
+            &:hover {
+              border-bottom: 2px solid $orange;
+              transition: all ease 0.2s;
+            }
+          }
         }
       }
     }
@@ -115,7 +121,6 @@
     #phone-img {
       width: 40%;
       display: block;
-      // float: left;
       text-align: right;
       #phone {
         width: 40%;
@@ -128,7 +133,6 @@
     #phone-side-txt {
       width: 60%;
       display: block;
-      // float: left;
       .step {
         display: block;
         margin: 25px;
@@ -141,7 +145,7 @@
           border: 1px solid #e67f22;
           border-radius: 50%;
           font-size: 200%;
-          line-height: 1.7;
+          line-height: 2;
           margin: 5px 25px;
           width: 60px;
           height: 60px;
